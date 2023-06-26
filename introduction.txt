@@ -1,0 +1,23 @@
+The Application Only mady by using PHP, HTML, CSS
+
+----------------
+    Admin    - (email)admin@gmail.com ---> admin(Password)
+----------------
+
+Admin only can view all details(Email,Password,Usertype) of the users (Staffs / admin / users)
+admin can add new user (staff or admin or user)
+admin can edit Usertype information
+admin can delete users
+
+----------------
+    Staffs
+----------------
+
+staffs only can view of details of the user and usertypes (password not visible)
+staffs can be add users or staffs
+
+----------------
+    users
+----------------
+
+users only can change their password

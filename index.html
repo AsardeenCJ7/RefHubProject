@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Slide Navbar</title>
+	<link rel="stylesheet" type="text/css" href="CSS/style.css">
+
+
+</head>
+<body>
+	<script src="index.js"></script>
+	<div class="main">  	
+		<input type="checkbox" id="chk" aria-hidden="true">
+
+			<div class="signup">
+				<form name="register" method="post" action="connection.php"  id="register-form">
+					<label for="chk" aria-hidden="true">Sign up</label>
+					<input type="email" name="email" id="email" placeholder="Email" required="" autocomplete="off">
+					<input type="password" name="pwd1" id="pwd1" placeholder="Enter Password" required ="" autocomplete="off">
+					<input type="password" name="pwd2" id="pwd2" placeholder="Re-Enter Password" required="" autocomplete="off">
+					<button onclick="validation()">Sign up</button>
+				</form>
+				
+			</div>
+
+			<div class="login">
+				<form name="login" method="post" action="login.php">
+					<label for="chk" aria-hidden="true">Login</label>
+					<input type="email" name="email" placeholder="Email" required autocomplete="off">
+					<input type="password" name="password" placeholder="Password" required autocomplete="off">
+					<button>Login</button>
+				</form>
+				<li class="passwordtext"><a href="#">Forgot password?</a></li>
+			</div>
+	</div>
+
+	
+</body>
+</html>
